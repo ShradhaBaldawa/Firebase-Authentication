@@ -1,38 +1,51 @@
-.App {
+h2 {
+  color: orangered;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  margin-bottom: .5rem;
+}
+
+.btn-success {
+  background-color: orangered;
+  min-width: 120px;
+  border-color: orangered;
+  box-shadow: 6px 8px 8px rgb(132 78 72) !important;
+  width: 100% !important;
+  margin-top: 20px;
+}
+
+.error-msg {
+  color: red;
   text-align: center;
+  margin-top: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.border-div {
+  border: 2px solid orangered;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card {
+  border: 0;
+  max-width: 450px;
+  margin: auto;
+  background: #FFFFFF;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.forgot-text {
+  color: orangered;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-check-input {
+  cursor: pointer;
+  margin-left: revert;
+  margin-right: 4px;
 }
